@@ -80,9 +80,7 @@ public class CardviewPreference extends Preference {
 
         TextView title = (TextView) holder.findViewById(android.R.id.title);
         LinearLayout rootLayout = (LinearLayout) title.getParent().getParent();
-        TextView summary = (TextView) holder.findViewById(android.R.id.summary);
         rootLayout.setBackgroundResource(R.drawable.selectable_item_plain_background);
-        summary.setTextColor(getContext().getResources().getColor(R.color.text_secondary, null));
 
 
         ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) rootLayout.getLayoutParams();
