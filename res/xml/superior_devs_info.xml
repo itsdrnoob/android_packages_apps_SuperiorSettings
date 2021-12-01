@@ -18,6 +18,7 @@
 
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:title="@string/superior_settings_devtitle">
 
 <com.superior.settings.preferences.BasePreferenceCategory
@@ -41,7 +42,8 @@
             android:key="dev1"
             android:title="@string/dev_1"
             android:icon="@drawable/ic_code"
-            android:summary="@string/dev1_description" >
+            android:summary="@string/dev1_description"
+            app:widgetLayout="@layout/preference_telegram_end">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Darkstar085" />
@@ -51,7 +53,8 @@
             android:key="dev2"
             android:title="@string/dev_2"
             android:icon="@drawable/ic_code"
-            android:summary="@string/dev2_description" >
+            android:summary="@string/dev2_description"
+            app:widgetLayout="@layout/preference_telegram_end">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/JD1811" />
@@ -61,7 +64,8 @@
             android:key="dev3"
             android:title="@string/dev_3"
             android:icon="@drawable/ic_code"
-            android:summary="@string/dev3_description" >
+            android:summary="@string/dev3_description"
+            app:widgetLayout="@layout/preference_telegram_end">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Joker_V2_0" />
@@ -71,7 +75,8 @@
             android:key="dev4"
             android:title="@string/dev_4"
             android:icon="@drawable/ic_code"
-            android:summary="@string/dev4_description" >
+            android:summary="@string/dev4_description"
+            app:widgetLayout="@layout/preference_telegram_end">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/adnan_fays" />
@@ -81,7 +86,8 @@
             android:key="dev8"
             android:title="@string/dev_5"
             android:icon="@drawable/ic_code"
-            android:summary="@string/dev5_description" >
+            android:summary="@string/dev5_description"
+            app:widgetLayout="@layout/preference_telegram_end">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/T3rr0r1st" />
@@ -97,7 +103,8 @@
             android:key="mentions_pavan"
             android:title="@string/mentions_pavan"
             android:icon="@drawable/ic_devs_mention"
-            android:summary="@string/mentions_pavan_description" >
+            android:summary="@string/mentions_pavan_description"
+            app:widgetLayout="@layout/preference_telegram_end">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Advertpavan" />
@@ -107,7 +114,8 @@
             android:key="mentions_sam"
             android:title="@string/mentions_sam"
             android:summary="@string/mentions_sam_description"
-            android:icon="@drawable/ic_devs_mention">
+            android:icon="@drawable/ic_devs_mention"
+            app:widgetLayout="@layout/preference_telegram_end">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Reapergod35" />
@@ -117,7 +125,8 @@
             android:key="mentions_iacob"
             android:title="@string/mentions_iacob"
             android:summary="@string/mentions_iacob_description"
-            android:icon="@drawable/ic_devs_mention">
+            android:icon="@drawable/ic_devs_mention"
+            app:widgetLayout="@layout/preference_telegram_end">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/iacobionut" />

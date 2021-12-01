@@ -47,7 +47,6 @@ public class BasePreferenceCategory extends PreferenceCategory {
         super.onBindViewHolder(holder);
         if (holder != null) {
             TextView title = (TextView) holder.findViewById(android.R.id.title);
-            title.setTextColor(getContext().getResources().getColor(R.color.text_primary, null));
             LinearLayout rootLayout = (LinearLayout) title.getParent();
             rootLayout.setPadding(30, 0, 0, 0);
 
